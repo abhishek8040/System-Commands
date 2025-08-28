@@ -63,11 +63,13 @@ The file `/etc/profile`, a critical shell configuration file, is inspected with 
 - **`mv`**: move a file.
   ex: **mv file1 dir1** moves file1 to dir1 folder. 
 - **`rm`**: remove a file.
-  ex: **rm file1** removes file1.
+  ex: **rm file1** removes file1. <br>
   ex: *rmdir dir1* removes empty directory dir1. <br>
   ex: *rm -r dir1* removes non empty directory dir1. <br>
 - **`cp`**: copy a file.<br>
   ex: *cp file1 file2* copy contents of file1 to file2.
+
+  ex: *cp -r dir1 dir2* copies dir1 to dir2.
 - **` `**
 
 
