@@ -52,4 +52,5 @@ The file `/etc/profile`, a critical shell configuration file, is inspected with 
 - **`apropos`**: prints all the commands and thier description which contains keyword. **apropos who** lists all the command which contaions who keyword.
   
 - **`man`**: . It provides detailed documentation on how to use a specific command or utility, including its syntax, options, and usage examples.  ex: **man who** lists all the description of what who command does.
-- 
+- **`info`**: lists all the commands of bash and their info.
+- **`alias`** alias is used to define a new word for a command. ex: **alias ll="ls -l" then use **ll** it do the same work that  ls -l command does. we can check by using **type ll**: ll is aliased to `ls -l'
