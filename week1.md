@@ -47,7 +47,9 @@ The file `/etc/profile`, a critical shell configuration file, is inspected with 
 - `head -n 5 /etc/profile` displays the
 
 
-**`whatis`**: Brief description, "whatis less" tells what less command do.. similarly **`whatis cat`** tells what cat command does.
+- **`whatis`**: Brief description, "whatis less" tells what less command do.. similarly **`whatis cat`** tells what cat command does.
 
-**`apropos`**: prints all the commands and thier description which contains keyword. **apropos who** lists all the command which contaions who keyword.
-**`man`**: . It provides detailed documentation on how to use a specific command or utility, including its syntax, options, and usage examples.  ex: **man who** lists all the description of what who command does.
+- **`apropos`**: prints all the commands and thier description which contains keyword. **apropos who** lists all the command which contaions who keyword.
+  
+- **`man`**: . It provides detailed documentation on how to use a specific command or utility, including its syntax, options, and usage examples.  ex: **man who** lists all the description of what who command does.
+- 
