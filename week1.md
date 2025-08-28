@@ -53,17 +53,20 @@ The file `/etc/profile`, a critical shell configuration file, is inspected with 
   
 - **`man`**: . It provides detailed documentation on how to use a specific command or utility, including its syntax, options, and usage examples.  ex: **man who** lists all the description of what who command does.
 - **`info`**: lists all the commands of bash and their info.
-- **`alias`** alias is used to define a new word for a command. ex: **alias ll="ls -l"** then use **ll** it do the same work that  *ls -l* command does. we can check by using **type ll**: ll is aliased to `ls -l'.
+- **`alias`** alias is used to define a new word for a command.
+  ex: **alias ll="ls -l"** then use **ll** it do the same work that  *ls -l* command does.
+  we can check by using **type ll**: ll is aliased to `ls -l'.
+  
   We can check all the alias commands by typing *alias* in the bash.
   *unaleas ll* deletes the ll command.
   
 - **`mv`**: move a file.
-  ex: **mv file1 dir1** moves file1 to dir1 folder.
+  ex: **mv file1 dir1** moves file1 to dir1 folder. 
 - **`rm`**: remove a file.
   ex: **rm file1** removes file1.
-  ex: *rmdir dir1* removes empty directory dir1
-  ex: *rm -r dir1* removes non empty directory dir1.
-- **`cp`**: copy a file.
+  ex: *rmdir dir1* removes empty directory dir1. <br>
+  ex: *rm -r dir1* removes non empty directory dir1. <br>
+- **`cp`**: copy a file.<br>
   ex: *cp file1 file2* copy contents of file1 to file2.
 - **` `**
 
