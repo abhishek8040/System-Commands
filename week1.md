@@ -70,6 +70,6 @@ The file `/etc/profile`, a critical shell configuration file, is inspected with 
   ex: *cp file1 file2* copy contents of file1 to file2.
 
   ex: *cp -r dir1 dir2* copies dir1 to dir2.
-- **` `**
+- **`stat file1 `**: Displays all the size details of file1.
 
 
